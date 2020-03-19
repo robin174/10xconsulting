@@ -11,10 +11,21 @@ get_header(); ?>
 <section class="area--template">
 	<div class="row">
 		<div class="small-12 medium-11 medium-centered large-10 columns">
-			<section class="block--template">
-				<h1><?php the_title(); ?></h1>
-				<?php get_template_part('template'); ?>
-			</section>
+
+			<div class="row">
+				<div class="small-12 hide-for-small medium-3 large-3 columns">
+					<figure class="logo-home">
+						<?php get_template_part('logo'); ?>
+					</figure>
+				</div>
+				<div class="small-12 medium-9 large-9 columns">
+					<section class="block--template">
+						<h1><?php the_title(); ?></h1>
+						<?php get_template_part('template'); ?>
+					</section>
+				</div>
+			</div><!-- end .row -->
+			
 		</div>
 	</div><!-- end .row -->
 </section>
