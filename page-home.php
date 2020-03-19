@@ -20,6 +20,7 @@ get_header(); ?>
 						</figure>
 					</div>
 					<div class="small-12 medium-9 large-9 columns">
+						<section class="block--template">
 						<?php /*
 						<section>
 							<h1>Welcome</h1>
@@ -35,7 +36,8 @@ get_header(); ?>
 						</section>
 						*/ ?>
 
-						<?php get_template_part('template'); ?>
+							<?php get_template_part('template'); ?>
+						</section>
 					</div>
 
 					<div>
