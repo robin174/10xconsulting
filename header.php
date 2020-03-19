@@ -49,7 +49,7 @@
 <header class="contain-to-grid">
 	<!-- Starting the Top-Bar -->
 	<nav class="top-bar" data-topbar>
-	    <ul class="title-area">
+	    <ul class="title-area"> 
 	        <li class="name">
 	        	<h1 class="header--logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-10xconsulting-head.png" alt="10x Consulting - Logo"></a></h1>
 	        </li>
