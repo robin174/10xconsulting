@@ -1,0 +1,9 @@
+figure {
+	&.headshot {
+		margin-bottom: $margin-small;
+		margin: $margin-small;
+		img {
+			border-radius: 50%;
+		}
+	}
+}

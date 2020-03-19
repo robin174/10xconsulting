@@ -1,0 +1,305 @@
+/* 0, 640px */
+/* 641px, 1024px */
+/* 1025px, 1440px */
+/* 1441px, 1920px */
+/* 1921px */
+figure {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+blockquote {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+address {
+  font-style: normal;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #000;
+  font-family: "museo-sans", arial, sans-serif; }
+
+.row {
+  max-width: 60rem !important; }
+
+a {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in; }
+
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 1px solid #40C8F4; }
+
+#map-canvas {
+  width: 100%;
+  height: 550px; }
+  #map-canvas p {
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0; }
+
+/* Avoids smashed interface controls when using Foundation and Google Maps */
+#map-canvas img {
+  max-width: none;
+  height: auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo-sans", arial, sans-serif;
+  font-weight: 300;
+  color: #40C8F4; }
+
+h1 {
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.9); }
+
+p {
+  color: #fff; }
+  p.intro {
+    font-size: 150%; }
+  p.quote-credit {
+    color: #40C8F4;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0; }
+  p.foot--address {
+    font-size: 80%;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px; }
+  p.foot--copyright {
+    font-size: 70%;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 0; }
+  p.small {
+    font-size: 80%; }
+
+a {
+  color: #40C8F4; }
+
+ul {
+  margin-bottom: 30px; }
+
+li {
+  color: #40C8F4;
+  margin-left: 60px; }
+
+li span.li_content {
+  color: #fff; }
+
+blockquote {
+  font-family: "museo-sans", arial, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 130%;
+  color: #fff; }
+
+address {
+  font-size: 100%;
+  font-family: "museo-sans", arial, sans-serif;
+  font-weight: 300;
+  color: #fff; }
+
+[class=box]
+[class~=box]
+[class|=box]
+[class^=box]
+[class$=box]
+[class*=box]
+[class$=reduced] {
+  font-size: 50%; }
+
+[class~=alert] {
+  color: red; }
+
+.area--head {
+  background: rgba(50, 50, 50, 0.5);
+  padding: 60px;
+  border-bottom: 5px solid #40C8F4;
+  text-align: center; }
+
+@media only screen and (min-width: 40.063em) {
+  .area--head {
+    padding: 120px; } }
+@media only screen and (min-width: 64.063em) {
+  .area--head {
+    padding: 180px; } }
+[class*=area--page] {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: url(../images/10x-binary-background5.png) top center no-repeat; }
+
+.area--template {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url(../images/10x-binary-background5.png) top center no-repeat; }
+
+.area--map {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url(../images/10x-binary-background5.png) top center no-repeat; }
+
+.area--additional {
+  padding-bottom: 30px; }
+
+.area--cta {
+  padding-bottom: 60px;
+  background: url(../images/10x-binary-footer1.png) bottom center no-repeat; }
+
+.block--bio {
+  padding-left: 24px;
+  padding-right: 24px; }
+
+.linkedin {
+  padding-top: 5px;
+  margin: 0 auto;
+  display: block; }
+
+.block--template {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.block--cta {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+figure.headshot {
+  margin-bottom: 30px;
+  margin: 30px; }
+  figure.headshot img {
+    border-radius: 50%; }
+
+blockquote.quote-content::before {
+  border-color: rgba(64, 200, 255, 0);
+  border-top-color: #40C8F4;
+  border-width: 21px;
+  left: 20%;
+  margin-left: -21px; }
+blockquote.quote-content::after {
+  border-color: rgba(64, 200, 255, 0);
+  border-top-color: #000;
+  border-width: 15px;
+  left: 20%;
+  margin-left: -15px; }
+blockquote.quote-content {
+  border: 5px solid #40C8F4;
+  padding: 30px;
+  padding-bottom: 37.5px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block; }
+
+.quote-content::after, .quote-content::before {
+  content: "";
+  top: 100%;
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+@media only screen and (min-width: 40.063em) {
+  blockquote.quote-content::before {
+    left: 10%; }
+  blockquote.quote-content::after {
+    left: 10%; } }
+header {
+  padding-bottom: 0;
+  position: relative;
+  z-index: 50; }
+
+.container {
+  position: relative;
+  z-index: 10; }
+
+.contain-to-grid {
+  background: none repeat scroll 0 0 #000;
+  margin-bottom: 0;
+  max-width: 100%;
+  background-color: #000;
+  border-bottom: 5px solid #40C8F4; }
+
+nav.top-bar {
+  background: #000;
+  padding-top: 10px;
+  height: 60px; }
+
+.divider {
+  display: none; }
+
+.top-bar-section ul {
+  background: none; }
+
+.top-bar-section li {
+  margin-left: 0;
+  padding-top: 16px;
+  margin-left: 10px; }
+
+.top-bar-section ul li > a {
+  font-family: "museo-sans", arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  background: #000;
+  border-radius: 5px; }
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  font-weight: 700;
+  background: #000; }
+
+.top-bar-section li:not(.has-form) a:hover:not(.button) {
+  color: #40C8F4;
+  background: #111; }
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  color: #40C8F4;
+  background: #111; }
+
+.top-bar.expanded {
+  padding-bottom: 5px; }
+  .top-bar.expanded .title-area {
+    background: #000; }
+  .top-bar.expanded .toggle-topbar a {
+    color: #000; }
+  .top-bar.expanded .toggle-topbar a span {
+    box-shadow: none; }
+  .top-bar.expanded .toggle-topbar.menu-icon a {
+    color: white; }
+  .top-bar.expanded .toggle-topbar.menu-icon a::after {
+    box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff; }
+
+@media only screen and (min-width: 40.063em) {
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 8px; } }
+@media only screen and (min-width: 64.063em) {
+  .home nav.top-bar, .page-id-250 nav.top-bar {
+    width: 60em; }
+
+  nav.top-bar {
+    width: 60em;
+    height: 75px; }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 15px; } }
+footer {
+  background: #40C8F4;
+  padding-top: 15px;
+  padding-bottom: 15px; }

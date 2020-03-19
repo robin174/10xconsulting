@@ -1,0 +1,18 @@
+header {
+	padding-bottom: 0;
+	position: relative;
+	z-index: 50;
+}
+
+.container {
+	position: relative;
+	z-index: 10;
+}
+
+.contain-to-grid {
+	background: none repeat scroll 0 0 $color-black;
+	margin-bottom: 0;
+	max-width: 100%;
+	background-color: $color-black;
+	border-bottom: 5px solid $color-primary;
+}

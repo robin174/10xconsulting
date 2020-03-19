@@ -1,0 +1,48 @@
+blockquote {
+	&.quote-content::before {
+	 	border-color: rgba(64,200,264,0);
+		border-top-color: $color-primary;
+		border-width: 21px;
+		left: 20%;
+		margin-left: -21px;
+	}
+
+	&.quote-content::after {
+		border-color: rgba(64,200,264,0);
+		border-top-color: $color-black;
+		border-width: 15px;
+		left: 20%;
+		margin-left: -15px;
+	}
+
+	&.quote-content {
+		border: 5px solid $color-primary;
+		padding: $padding-small;
+		padding-bottom: $padding-small * 1.25;
+		border-radius: 15px;
+		margin-bottom: 20px;
+		position: relative;
+		display: block;
+	}
+}
+
+.quote-content::after, .quote-content::before {
+	content: "";
+	top: 100%;
+	border: solid transparent;
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+@media #{$medium-up} {
+	blockquote {
+		&.quote-content::before {
+			left: 10%;
+		}
+		&.quote-content::after {
+			left: 10%;
+		}
+	}
+}
