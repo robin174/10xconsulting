@@ -11,7 +11,7 @@ get_header(); ?>
 <section class="area--page-home">
 	<section class="block--logo">
 		<div class="row">
-			<div class="small-12 medium-11 medium-centered large-10 columns">
+			<div class="small-12 medium-11 medium-centered large-10 columns" style="padding-top:100px;padding-bottom:50px;">
 
 				<div class="row">
 					<div class="small-12 hide-for-small medium-3 large-3 columns">
