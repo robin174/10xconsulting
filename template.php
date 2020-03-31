@@ -27,15 +27,17 @@
 			 <?php if( get_sub_field('bullet_introduction') ): ?>
 				<p class="bullet-intro"><?php the_sub_field('bullet_introduction'); ?></p>
 			<?php endif; ?>
-	        <?php 
-	        $values = get_sub_field('bullet_points');
-	        if ($values){ 
-	        echo '<ul class="bullet">';
-	        foreach($values as $value){
-	            echo '<li class="blue">'.$value['bullet_point'].'</li>'; 
-	        }
-	        echo '</ul>';
-	        } ?>
+			<div>
+			    <?php 
+				$values = get_sub_field('bullet_points');
+			    if ($values){ 
+			    echo '<ul class="bullet">';
+			    foreach($values as $value){
+			        echo '<li class="blue">'.$row['bullet_point'].'</li>'; 
+			    }
+			        echo '</ul>';
+			    } ?>
+			</div>
 		</section>
 	<?php endif; ?>
 

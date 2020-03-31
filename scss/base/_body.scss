@@ -1,0 +1,37 @@
+@import "compass/css3";
+
+body {
+	background-color: $color-black;
+	font-family: $font-sans;
+}
+
+.row {
+    max-width: 60rem!important; // Original: 71.25rem
+}
+
+a {
+	@include transition-default;
+}
+
+hr {
+	margin-top: $margin-general;
+	margin-bottom: $margin-general;
+	border: 1px solid $color-primary;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 550px;
+	& p {
+		color: $color-black;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		padding:0;
+	}
+}
+
+/* Avoids smashed interface controls when using Foundation and Google Maps */
+#map-canvas img { 
+	max-width: none; 
+	height: auto 
+}

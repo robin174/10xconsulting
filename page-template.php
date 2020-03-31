@@ -11,7 +11,7 @@ get_header(); ?>
 <section class="area--template">
 	<section class="block--logo">
 		<div class="row">
-			<div class="small-12 medium-11 medium-centered large-10 columns">
+			<div class="small-12 medium-12 medium-centered large-12 columns">
 
 				<div class="row">
 					<div class="small-12 hide-for-small medium-3 large-3 columns">
@@ -50,7 +50,6 @@ get_header(); ?>
 					     	</blockquote>
 					    <?php wp_reset_postdata(); ?>
 						<?php endif; ?>
-					    <?php /* <p class="quote-credit"><?php the_field('quote_credit'); ?></p> This is outside to allow for the design/outline */ ?>
 					</section>
 				</div>
 			</div><!-- end .row -->
@@ -74,9 +73,5 @@ get_header(); ?>
 		</div>
 	</div><!-- end .row -->
 </section>
-
-<script>
-	jQuery('li.blue').wrapInner('<span class="li_content" />');
-</script>
 
 <?php get_footer(); ?>

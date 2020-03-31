@@ -1,0 +1,100 @@
+// BASE THEMES
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-sans;
+	font-weight: $font-regular;
+	color: $color-primary;
+}
+
+h1 {
+	text-shadow: 0 0 6px rgba(0,0,0,0.9);
+}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {
+	color: #fff;
+	&.intro {
+		font-size: 150%;
+	}
+	&.quote-credit {
+		color: $color-primary;
+		font-weight:$font-bold;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	&.foot--address {
+		font-size: 80%;
+		color: $color-black;
+		font-weight:$font-semibold;
+		margin-bottom: 5px;
+	}
+	&.foot--copyright {
+		font-size: 70%;
+		color: $color-black;
+		font-weight:$font-semibold;
+		margin-bottom: 0;
+	}
+	&.small {
+		font-size: 80%;
+	}
+}
+
+a {
+	color: $color-primary;
+}
+
+// To sort... see Nav
+ul {
+	margin-bottom: $margin-small;
+}
+
+li {
+	color: $color-primary;
+	margin-left: $margin-general;
+}
+
+li span.li_content { 
+	color: #fff;
+}
+
+blockquote {
+	font-family: $font-sans;
+	font-weight: $font-semibold;
+	font-style: italic;
+	font-size: 130%;
+	color: #fff;
+}
+
+address {
+	font-size: 100%;
+	font-family: $font-sans;
+	font-weight: $font-regular;
+	color: #fff;
+}
+
+// Classes 
+[class=box]
+[class~=box] // contains a whitespace separated "box"
+[class|=box] // contains "box" or "box-"
+[class^=box] // starts with "box"
+[class$=box] // ends in "box"
+[class*=box] // contains "box" anywhere
+
+
+[class$=reduced] {
+	font-size: 50%;
+}
+
+[class~=alert] {
+	color: red;
+}
+
+// SPECIFICS - targeted classes to tags
