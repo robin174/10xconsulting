@@ -33,7 +33,7 @@
 			    if ($values){ 
 			    echo '<ul class="bullet">';
 			    foreach($values as $value){
-			        echo '<li class="blue">'.$row['bullet_point'].'</li>'; 
+			        echo '<li class="blue">'.$value['bullet_point'].'</li>'; 
 			    }
 			        echo '</ul>';
 			    } ?>
