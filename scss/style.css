@@ -171,90 +171,11 @@ address {
   padding-left: 30px;
   padding-right: 30px; }
 
-h2 {
-  font-weight: 900;
-  margin-bottom: 0; }
-
-hr.bar {
-  width: 12%;
-  margin-top: 30px;
-  margin-bottom: 45px; }
-
-ul.bullet-black {
-  list-style: none; }
-  ul.bullet-black li::before {
-    color: #000;
-    content: "\2022";
-    /* Unicode of character to precede the list item */
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em; }
-
 section.home--block-blue {
   background-color: #40C8F4; }
-  section.home--block-blue h2.home--t-title {
-    color: #fff; }
-  section.home--block-blue hr.bar {
-    border: 1px solid #fff; }
-  section.home--block-blue .home--bg-pattern {
-    background: url("../images/10x-binary-white.png") no-repeat bottom center;
-    padding-top: 90px;
-    padding-bottom: 120px; }
-  section.home--block-blue p {
-    font-weight: 500;
-    color: black; }
-    section.home--block-blue p.home--p-intro {
-      font-weight: 700; }
-    section.home--block-blue p.home--li-intro {
-      font-weight: 700;
-      font-style: italic; }
-  section.home--block-blue li {
-    color: #fff;
-    font-weight: 700;
-    line-height: 1.7;
-    margin-bottom: 15px; }
-    section.home--block-blue li strong {
-      font-weight: 900; }
 
 section.home--block-white {
-  background-color: #fff; }
-  section.home--block-white h2.home--t-title {
-    color: #40C8F4; }
-  section.home--block-white hr.bar {
-    border: 1px solid #40C8F4; }
-  section.home--block-white .home--bg-pattern {
-    background: url("../images/10x-binary-blue.png") no-repeat bottom center;
-    padding-top: 90px;
-    padding-bottom: 120px; }
-  section.home--block-white p {
-    font-weight: 500;
-    color: black; }
-    section.home--block-white p.home--p-intro {
-      font-weight: 700; }
-    section.home--block-white p.home--li-intro {
-      font-weight: 700;
-      font-style: italic; }
-  section.home--block-white li {
-    color: #40C8F4;
-    font-weight: 700;
-    line-height: 1.7;
-    margin-bottom: 15px; }
-    section.home--block-white li strong {
-      font-weight: 900; }
-
-.bl-contact p {
-  color: #000; }
-  .bl-contact p span {
-    color: #40C8F4;
-    font-weight: 700; }
-
-.bl-contact a {
-  color: #000;
-  text-decoration: underline; }
-  .bl-contact a:hover {
-    color: #40C8F4;
-    text-decoration: underline;
-    transition: 0.5s; }
+  background-color: red; }
 
 .block--template {
   padding-left: 30px;

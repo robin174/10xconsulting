@@ -1,0 +1,115 @@
+// General styles for both blocks
+h2 {
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+hr.bar {
+	width: 12%;
+	margin-top: $margin-small;
+	margin-bottom: $margin-small* 1.5;
+}
+
+ul.bullet-black {
+	list-style: none;
+	& li::before {
+		color: $color-black;  
+		content: "\2022"; /* Unicode of character to precede the list item */
+		display: inline-block;
+		width: 1em;
+		margin-left: -1em;
+	}
+}
+
+section.home--block-blue {
+	background-color: $color-primary;
+	h2 {
+		&.home--t-title {
+			color: $color-white;
+		}
+	}
+	hr.bar {
+		border: 1px solid $color-white;
+	}
+	& .home--bg-pattern {
+		background: url('../images/10x-binary-white.png') no-repeat bottom center;
+		padding-top: $padding-general *1.5;
+		padding-bottom: $padding-general *2;
+	}
+	& p {
+		font-weight: 500;
+		color: black;
+		&.home--p-intro {
+			font-weight: 700;
+		}
+		&.home--li-intro {
+			font-weight: 700;
+			font-style: italic;
+		}
+	}
+	& li {
+		color: $color-white;
+		font-weight: 700;
+		line-height: 1.7;
+		margin-bottom: 15px;
+		& strong {
+			font-weight: 900;
+		}
+	}
+}
+
+section.home--block-white {
+	background-color: $color-white;
+	h2 {
+		&.home--t-title {
+			color: $color-primary;
+		}
+	}
+	hr.bar {
+		border: 1px solid $color-primary;
+	}
+	& .home--bg-pattern {
+		background: url('../images/10x-binary-blue.png') no-repeat bottom center;
+		padding-top: $padding-general *1.5;
+		padding-bottom: $padding-general *2;
+	}
+	& p {
+		font-weight: 500;
+		color: black;
+		&.home--p-intro {
+			font-weight: 700;
+		}
+		&.home--li-intro {
+			font-weight: 700;
+			font-style: italic;
+		}
+	}
+	& li {
+		color: $color-primary;
+		font-weight: 700;
+		line-height: 1.7;
+		margin-bottom: 15px;
+		& strong {
+			font-weight: 900;
+		}
+	}
+}
+
+.bl-contact {
+	& p {
+		color: $color-black;
+		& span {
+			color: $color-primary;
+			font-weight: 700;
+		}
+	}
+	& a {
+		color: $color-black;
+		text-decoration: underline;
+		&:hover {
+			color: $color-primary;
+			text-decoration: underline;
+			transition: 0.5s;
+		}
+	}
+}

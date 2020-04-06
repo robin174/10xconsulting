@@ -28,15 +28,13 @@
 				<p class="bullet-intro"><?php the_sub_field('bullet_introduction'); ?></p>
 			<?php endif; ?>
 			<div>
-			    <?php 
-				$values = get_sub_field('bullet_points');
-			    if ($values){ 
-			    echo '<ul class="bullet">';
-			    foreach($values as $value){
-			        echo '<li class="blue">'.$value['bullet_point'].'</li>'; 
-			    }
-			        echo '</ul>';
-			    } ?>
+				<?php if( have_rows('bullet_points') ): // Repeater 02 Field Name ?>
+				<ul class="bullet">
+					<?php while( have_rows('bullet_points') ): the_row(); ?>
+						<li class="blue"><?php the_sub_field('bullet_point'); ?></li>
+					<?php endwhile; ?>
+				</ul>
+				<?php endif; ?>
 			</div>
 		</section>
 	<?php endif; ?>
