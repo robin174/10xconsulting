@@ -28,6 +28,12 @@ section.home--block-blue {
 			color: $color-white;
 		}
 	}
+	h3 {
+		color: $color-white;
+	}
+	h4 {
+		color: $color-white;
+	}
 	hr.bar {
 		border: 1px solid $color-white;
 	}
@@ -56,6 +62,15 @@ section.home--block-blue {
 			font-weight: 900;
 		}
 	}
+	a {
+		color: $color-white;
+		text-decoration: underline;
+		&:hover {
+			color: $color-black;
+			text-decoration: underline;
+		}
+	}
+
 }
 
 section.home--block-white {
@@ -64,6 +79,12 @@ section.home--block-white {
 		&.home--t-title {
 			color: $color-primary;
 		}
+	}
+	h3 {
+		color: $color-primary;
+	}
+	h4 {
+		color: $color-primary;
 	}
 	hr.bar {
 		border: 1px solid $color-primary;

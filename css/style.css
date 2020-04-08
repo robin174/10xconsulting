@@ -128,11 +128,11 @@ address {
   border-bottom: 5px solid #40C8F4;
   text-align: center; }
 
-@media only screen and (min-width: lower-bound(40.063em, 64em)) {
+@media only screen and (min-width:lower-bound(40.063em, 64em)) {
   .area--head {
     padding: 120px; } }
 
-@media only screen and (min-width: lower-bound(64.063em, 90em)) {
+@media only screen and (min-width:lower-bound(64.063em, 90em)) {
   .area--head {
     padding: 180px; } }
 
@@ -194,6 +194,10 @@ section.home--block-blue {
   background-color: #40C8F4; }
   section.home--block-blue h2.home--t-title {
     color: #fff; }
+  section.home--block-blue h3 {
+    color: #fff; }
+  section.home--block-blue h4 {
+    color: #fff; }
   section.home--block-blue hr.bar {
     border: 1px solid #fff; }
   section.home--block-blue .home--bg-pattern {
@@ -215,10 +219,20 @@ section.home--block-blue {
     margin-bottom: 15px; }
     section.home--block-blue li strong {
       font-weight: 900; }
+  section.home--block-blue a {
+    color: #fff;
+    text-decoration: underline; }
+    section.home--block-blue a:hover {
+      color: #000;
+      text-decoration: underline; }
 
 section.home--block-white {
   background-color: #fff; }
   section.home--block-white h2.home--t-title {
+    color: #40C8F4; }
+  section.home--block-white h3 {
+    color: #40C8F4; }
+  section.home--block-white h4 {
     color: #40C8F4; }
   section.home--block-white hr.bar {
     border: 1px solid #40C8F4; }
@@ -298,7 +312,7 @@ blockquote.quote-content {
   position: absolute;
   pointer-events: none; }
 
-@media only screen and (min-width: lower-bound(40.063em, 64em)) {
+@media only screen and (min-width:lower-bound(40.063em, 64em)) {
   blockquote.quote-content::before {
     left: 10%; }
   blockquote.quote-content::after {
@@ -369,11 +383,11 @@ nav.top-bar {
   .top-bar.expanded .toggle-topbar.menu-icon a::after {
     box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff; }
 
-@media only screen and (min-width: lower-bound(40.063em, 64em)) {
+@media only screen and (min-width:lower-bound(40.063em, 64em)) {
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 8px; } }
 
-@media only screen and (min-width: lower-bound(64.063em, 90em)) {
+@media only screen and (min-width:lower-bound(64.063em, 90em)) {
   .home nav.top-bar, .page-id-250 nav.top-bar {
     width: 60em; }
   nav.top-bar {
